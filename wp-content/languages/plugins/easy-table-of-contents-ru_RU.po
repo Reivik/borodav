@@ -1,0 +1,540 @@
+# Translation of Plugins - Easy Table of Contents - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Easy Table of Contents - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-04-16 19:33:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Easy Table of Contents - Stable (latest release)\n"
+
+#: includes/class.options.php:514
+msgid "Mobile Smooth Scroll Offset"
+msgstr "Смещение плавной прокрутки на мобильном"
+
+#: includes/class.options.php:515
+msgid "This provides the same function as the Smooth Scroll Offset option above but applied when the user is visiting your site on a mobile device."
+msgstr "Аналогично параметру смещение плавной прокрутки, но применяется когда пользователь заходит на сайт с мобильного устройства."
+
+#: includes/class.options.php:355
+msgid "Heavy"
+msgstr "Heavy"
+
+#: includes/class.options.php:354
+msgid "Extra Bold"
+msgstr "Extra Bold"
+
+#: includes/class.options.php:353
+msgid "Bold"
+msgstr "Bold"
+
+#: includes/class.options.php:352
+msgid "Semi Bold"
+msgstr "Semi Bold"
+
+#: includes/class.options.php:351
+msgid "Medium"
+msgstr "Medium"
+
+#: includes/class.options.php:350
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/class.options.php:349
+msgid "Light"
+msgstr "Light"
+
+#: includes/class.options.php:348
+msgid "Extra Light"
+msgstr "Extra Light"
+
+#: includes/class.options.php:347
+msgid "Thin"
+msgstr "Thin"
+
+#: includes/class.options.php:343
+msgid "Title Font Weight"
+msgstr "Начертание шрифта заголовка"
+
+#: includes/class.options.php:336
+msgid "Title Font Size"
+msgstr "Размер шрифта заголовка"
+
+#: includes/class.admin.php:60
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class.admin.php:92 includes/class.admin.php:93
+#: includes/class.admin.php:145 includes/class.widget-toc.php:27
+#: includes/inc.admin-options-page.php:2
+msgid "Table of Contents"
+msgstr "Содержание"
+
+#: includes/class.admin.php:211
+msgid "Advanced:"
+msgstr "Дополнительно:"
+
+#: includes/class.admin.php:218
+msgid "NOTE:"
+msgstr "ВАЖНО:"
+
+#: includes/class.admin.php:220
+msgid "Using the advanced options below will override the global advanced settings."
+msgstr "Изменение расширенных параметров ниже приведёт к изменению глобальных расширенных настроек."
+
+#: includes/class.admin.php:229 includes/class.options.php:471
+msgid "Headings:"
+msgstr "Заголовки:"
+
+#: includes/class.admin.php:237 includes/class.options.php:475
+msgid "Heading 1 (h1)"
+msgstr "Заголовок 1 (h1)"
+
+#: includes/class.admin.php:238 includes/class.options.php:476
+msgid "Heading 2 (h2)"
+msgstr "Заголовок 2 (h2)"
+
+#: includes/class.admin.php:239 includes/class.options.php:477
+msgid "Heading 3 (h3)"
+msgstr "Заголовок 3 (h3)"
+
+#: includes/class.admin.php:240 includes/class.options.php:478
+msgid "Heading 4 (h4)"
+msgstr "Заголовок 4 (h4)"
+
+#: includes/class.admin.php:241 includes/class.options.php:479
+msgid "Heading 5 (h5)"
+msgstr "Заголовок 5 (h5)"
+
+#: includes/class.admin.php:242 includes/class.options.php:480
+msgid "Heading 6 (h6)"
+msgstr "Заголовок 6 (h6)"
+
+#: includes/class.admin.php:252
+msgid "Alternate Headings"
+msgstr "Альтернативные заголовки"
+
+#: includes/class.admin.php:258
+msgid "Specify alternate table of contents header string. Add the header to be replaced and the alternate header on a single line separated with a pipe <code>|</code>. Put each additional original and alternate header on its own line."
+msgstr "Укажите альтернативную строку заголовка содержимого.  Добавьте заголовок, который надо заменить и альтернативный заголовок на одной строке, разделенные вертикальной чертой <code>|</code>. Поместите каждый дополнительный оригинальный и альтернативный заголовок на отдельной строке."
+
+#: includes/class.admin.php:275 includes/class.admin.php:309
+#: includes/class.options.php:495
+msgid "Examples:"
+msgstr "Примеры:"
+
+#: includes/class.admin.php:279
+msgid "<strong>Note:</strong> This is case sensitive."
+msgstr "<strong> Примечание: </strong> Это чувствительно к регистру."
+
+#: includes/class.admin.php:286 includes/class.options.php:486
+msgid "Exclude Headings"
+msgstr "Исключить заголовки"
+
+#: includes/class.options.php:163
+msgid "Enable Support"
+msgstr "Включить поддержку"
+
+#: includes/class.options.php:164
+msgid "Select the post types to enable the support for table of contents."
+msgstr "Выберите типы сообщений, чтобы включить поддержку оглавления."
+
+#: includes/class.options.php:171
+msgid "Auto Insert"
+msgstr "Автоматическая вставка"
+
+#: includes/class.options.php:172
+msgid "Select the post types which will have the table of contents automatically inserted."
+msgstr "Выберите типы сообщений, которые будут автоматически вставлены в оглавление."
+
+#: includes/class.options.php:173
+msgid "NOTE: The table of contents will only be automatically inserted on post types for which it has been enabled."
+msgstr "ПРИМЕЧАНИЕ: Оглавление будет автоматически вставлено только для типов сообщений, для которых оно было включено."
+
+#: includes/class.options.php:180
+msgid "Position"
+msgstr "Расположение"
+
+#: includes/class.options.php:181
+msgid "Choose where where you want to display the table of contents."
+msgstr "Выберите, где вы хотите отображать оглавление."
+
+#: includes/class.options.php:184
+msgid "Before first heading (default)"
+msgstr "Перед первым заголовком (по умолчанию)"
+
+#: includes/class.options.php:185
+msgid "After first heading"
+msgstr "После первого заголовка"
+
+#: includes/class.options.php:186
+msgid "Top"
+msgstr "Вверху"
+
+#: includes/class.options.php:187
+msgid "Bottom"
+msgstr "Внизу"
+
+#: includes/class.options.php:194
+msgid "Show when"
+msgstr "Показывать когда"
+
+#: includes/class.options.php:195
+msgid "or more headings are present"
+msgstr "или больше подзаголовков"
+
+#: includes/class.options.php:202
+msgid "Display Header Label"
+msgstr "Отображать Заголовок Оглавления"
+
+#: includes/class.options.php:203
+msgid "Show header text above the table of contents."
+msgstr "Показывать текст заголовка над оглавлением."
+
+#: includes/class.options.php:209
+msgid "Header Label"
+msgstr "Заголовок Оглавления"
+
+#: includes/class.options.php:210
+msgid "Eg: Contents, Table of Contents, Page Contents"
+msgstr "Например: Содержание, Оглавлениение, Содержание страницы"
+
+#: includes/class.options.php:212
+msgid "Contents"
+msgstr "Содержание"
+
+#: includes/class.options.php:216
+msgid "Toggle View"
+msgstr "Переключать Видимость"
+
+#: includes/class.options.php:217
+msgid "Allow the user to toggle the visibility of the table of contents."
+msgstr "Разрешить пользователю переключать видимость оглавления."
+
+#: includes/class.options.php:237
+msgid "Initial View"
+msgstr "Начальный вид"
+
+#: includes/class.options.php:238
+msgid "Initially hide the table of contents."
+msgstr "Сначала скрыть оглавление."
+
+#: includes/class.options.php:244
+msgid "Show as Hierarchy"
+msgstr "Показывать иерархию"
+
+#: includes/class.options.php:251
+msgid "Counter"
+msgstr "Нумерация"
+
+#: includes/class.options.php:255
+msgid "Decimal (default)"
+msgstr "Десятичный (по умолчанию)"
+
+#: includes/class.options.php:256
+msgid "Numeric"
+msgstr "Числовой"
+
+#: includes/class.options.php:257
+msgid "Roman"
+msgstr "Римские"
+
+#: includes/class.options.php:258
+msgid "None"
+msgstr "Ничего"
+
+#: includes/class.options.php:264
+msgid "Smooth Scroll"
+msgstr "Плавная прокрутка"
+
+#: includes/class.options.php:276
+msgid "Width"
+msgstr "Ширина"
+
+#: includes/class.options.php:281
+msgid "Fixed"
+msgstr "Фиксированная"
+
+#: includes/class.options.php:295
+msgid "Relative"
+msgstr "Относительная"
+
+#: includes/class.options.php:307 includes/class.options.php:377
+msgid "Custom"
+msgstr "Выборочно"
+
+#: includes/class.options.php:309
+msgid "User Defined"
+msgstr "Определяемая пользователем"
+
+#: includes/class.options.php:317
+msgid "Custom Width"
+msgstr "Пользовательская ширина"
+
+#: includes/class.options.php:318
+msgid "Select the User Defined option from the Width option to utilitze the custom width."
+msgstr "Выберите опцию \"Определяемая пользователем\" из параметра Ширина, чтобы реализовать пользовательскую ширину."
+
+#: includes/class.options.php:324
+msgid "Float"
+msgstr "Обтекание"
+
+#: includes/class.options.php:328
+msgid "None (Default)"
+msgstr "Нет (по умолчанию)"
+
+#: includes/class.options.php:329
+msgid "Left"
+msgstr "Слева"
+
+#: includes/class.options.php:330
+msgid "Right"
+msgstr "Справа"
+
+#: includes/class.options.php:361
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: includes/class.options.php:368
+msgid "Theme"
+msgstr "Тема"
+
+#: includes/class.options.php:369
+msgid "The theme is only applied to the table of contents which is auto inserted into the post. The Table of Contents widget will inherit the theme widget styles."
+msgstr "Тема применяется только к оглавлению, которое автоматически добавляется в сообщение. Виджет «Содержание» наследует стили виджета темы."
+
+#: includes/class.options.php:372
+msgid "Grey"
+msgstr "Серая"
+
+#: includes/class.options.php:373
+msgid "Light Blue"
+msgstr "Светло-синяя"
+
+#: includes/class.options.php:374
+msgid "White"
+msgstr "Белая"
+
+#: includes/class.options.php:375
+msgid "Black"
+msgstr "Черная"
+
+#: includes/class.options.php:376
+msgid "Transparent"
+msgstr "Прозрачная"
+
+#: includes/class.options.php:383
+msgid "Custom Theme"
+msgstr "Пользовательская тема"
+
+#: includes/class.options.php:384
+msgid "For the following settings to apply, select the Custom Theme option."
+msgstr "Чтобы применить следующие параметры, выберите параметр \"Пользовательская тема\"."
+
+#: includes/class.options.php:389
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: includes/class.options.php:396
+msgid "Border Color"
+msgstr "Цвет бордюра"
+
+#: includes/class.options.php:403
+msgid "Title Color"
+msgstr "Цвет заголовка"
+
+#: includes/class.options.php:410
+msgid "Link Color"
+msgstr "Цвет ссылок"
+
+#: includes/class.options.php:417
+msgid "Link Hover Color"
+msgstr "Цвет ссылки при наведении"
+
+#: includes/class.options.php:424
+msgid "Link Visited Color"
+msgstr "Цвет ссылки после нажатия"
+
+#: includes/class.options.php:436
+msgid "Lowercase"
+msgstr "Строчные буквы"
+
+#: includes/class.options.php:437
+msgid "Ensure anchors are in lowercase."
+msgstr "Убедитесь, что якоря находятся в нижнем регистре."
+
+#: includes/class.options.php:443
+msgid "Hyphenate"
+msgstr "Использовать дефисы"
+
+#: includes/class.options.php:444
+msgid "Use - rather than _ in anchors."
+msgstr "Использовать - вместо _ в якорях."
+
+#: includes/class.options.php:450
+msgid "Homepage"
+msgstr "Главная страница"
+
+#: includes/class.options.php:451
+msgid "Show the table of contents for qualifying items on the homepage."
+msgstr "Показать оглавление для квалифицирующих элементов на главной странице."
+
+#: includes/class.options.php:457
+msgid "CSS"
+msgstr "CSS"
+
+#: includes/class.options.php:458
+msgid "Prevent the loading the core CSS styles. When selected, the appearance options from above will be ignored."
+msgstr "Предотвратить загрузку стилей CSS этого плагина. Если включить этот пункт, параметры внешнего вида установленные выше будут проигнорироваться."
+
+#: includes/class.options.php:506
+msgid "Smooth Scroll Offset"
+msgstr "Смещение плавной прокрутки"
+
+#: includes/class.options.php:522
+msgid "Limit Path"
+msgstr "Ограничить путь"
+
+#: includes/class.options.php:523
+msgid "Restrict generation of the table of contents to pages that match the required path. This path is from the root of your site and always begins with a forward slash."
+msgstr "Ограничьте создание оглавления на страницы, соответствующие требуемому пути. Этот путь происходит от корня вашего сайта и всегда начинается с косой черты."
+
+#: includes/class.options.php:524
+msgid "Eg: /wiki/, /corporate/annual-reports/"
+msgstr "Например: /wiki/, /corporate/annual-reports/"
+
+#: includes/class.options.php:529
+msgid "Default Anchor Prefix"
+msgstr "Префикс якоря по умолчанию"
+
+#: includes/class.options.php:531
+msgid "This option normally applies to content written in character sets other than ASCII."
+msgstr "Этот параметр обычно применяется к контенту, записанному в наборах символов, отличных от ASCII."
+
+#: includes/class.options.php:532
+msgid "Eg: i, toc_index, index, _"
+msgstr "Например: i, toc_index, index, _"
+
+#: includes/class.options.php:538
+msgid "Widget Affix Selector"
+msgstr "Выбрать фиксированное положение"
+
+#: includes/class.options.php:539
+msgid "To enable the option to affix or pin the Table of Contents widget enter the theme's sidebar class or id."
+msgstr "Чтобы включить параметр для прикрепления или подключения виджета оглавления, введите класс боковой панели темы или идентификатор."
+
+#: includes/class.options.php:507
+msgid "If you have a consistent menu across the top of your site, you can adjust the top offset to stop the headings from appearing underneath the top menu. A setting of 30 accommodates the WordPress admin bar. This setting only has an effect after you have enabled Smooth Scroll option."
+msgstr "Если у вас есть согласованное меню в верхней части вашего сайта, вы можете настроить верхнее смещение, чтобы остановить заголовки под верхним меню. Настройка 30 вмещает панель администратора WordPress. Этот параметр действует только после того, как вы включили опцию \"Плавная прокрутка\"."
+
+#: includes/class.options.php:530
+msgid "Anchor targets are restricted to alphanumeric characters as per HTML specification (see readme for more detail). The default anchor prefix will be used when no characters qualify. When left blank, a number will be used instead."
+msgstr "Якорные цели ограничены буквенно-цифровыми символами в соответствии со спецификацией HTML (подробнее см. Readme). Префикс якоря по умолчанию будет использоваться, если не будет присвоено никаких символов. Если оставить пустым, вместо него будет использоваться номер."
+
+#: includes/class.options.php:540
+msgid "Since every theme is different, this can not be determined automatically. If you are unsure how to find the sidebar's class or id, please ask the theme's support persons."
+msgstr "Поскольку каждая тема отличается, это невозможно определить автоматически. Если вы не знаете, как найти класс или идентификатор боковой панели, обратитесь в поддержку темы."
+
+#: includes/class.options.php:541
+msgid "Eg: .widget-area or #sidebar"
+msgstr "Например: .widget-area или #sidebar"
+
+#: includes/class.options.php:793
+msgid "The callback function used for the <strong>%s</strong> setting is missing."
+msgstr "Функция обратного вызова, используемая для <strong>%s </strong> настройка отсутствует."
+
+#: includes/class.widget-toc.php:22
+msgid "Display the table of contents."
+msgstr "Отобразить оглавление."
+
+#: includes/class.widget-toc.php:324
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/class.widget-toc.php:331
+msgid "Active Section Highlight Color:"
+msgstr "Цвет подсветки активного раздела:"
+
+#: includes/class.widget-toc.php:339
+msgid "Affix or pin the widget."
+msgstr "Прикрепить или закрепить виджет."
+
+#: includes/class.widget-toc.php:343
+msgid "If you choose to affix the widget, do not add any other widgets on the sidebar. Also, make sure you have only one instance Table of Contents widget on the page."
+msgstr "Если вы решите прикреплять виджет, не добавляйте никаких других виджетов на боковой панели. Кроме того, убедитесь, что на странице есть только один виджет оглавления."
+
+#: includes/inc.admin-options-page.php:9
+msgid "General"
+msgstr "Основные"
+
+#: includes/inc.admin-options-page.php:27
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: includes/inc.admin-options-page.php:45
+msgid "Advanced"
+msgstr "Расширенные"
+
+#: includes/inc.admin-options-page.php:61
+msgid "Save Changes"
+msgstr "Сохранить настройки"
+
+#. Plugin Name of the plugin/theme
+msgid "Easy Table of Contents"
+msgstr "Easy Table of Contents"
+
+#. Description of the plugin/theme
+msgid "Adds a user friendly and fully automatic way to create and display a table of contents generated from the page content."
+msgstr "Добавляет удобный и полностью автоматический способ создания и отображения оглавления, созданного из содержимого страницы."
+
+#. Author of the plugin/theme
+msgid "Steven A. Zahm"
+msgstr "Steven A. Zahm"
+
+#. #-#-#-#-#  easy-table-of-contents-code.pot (Easy Table of Contents 1.7) 
+#. #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  easy-table-of-contents-code.pot (Easy Table of Contents 1.7) 
+#. #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://connections-pro.com/"
+msgstr "http://connections-pro.com/"
+
+#: includes/class.admin.php:199
+msgid "Insert table of contents."
+msgstr "Вставить оглавление."
+
+#: includes/class.admin.php:188
+msgid "Disable the automatic insertion of the table of contents."
+msgstr "Отключить автоматическую вставку оглавления."
+
+#: includes/class.admin.php:235 includes/class.options.php:472
+msgid "Select the heading to consider when generating the table of contents. Deselecting a heading will exclude it."
+msgstr "Выберите заголовки, которые следует учитывать при создании оглавления. Отмена выбора заголовка исключает его."
+
+#: includes/class.admin.php:312 includes/class.options.php:498
+msgid "<code>*Fruit Diet*</code> Ignore headings with \"Fruit Diet\" somewhere in the heading."
+msgstr "<code>*Диетические фрукты*</code> Игнорировать заголовки с \"Диетические фрукты\" где-то в заголовке."
+
+#: includes/class.admin.php:311 includes/class.options.php:497
+msgid "<code>Fruit*</code> Ignore headings starting with \"Fruit\"."
+msgstr "<code>Фрукты*</code> Игнорировать заголовки, начинающиеся с \"Фрукты\"."
+
+#: includes/class.admin.php:292 includes/class.options.php:487
+msgid "Specify headings to be excluded from appearing in the table of contents. Separate multiple headings with a pipe <code>|</code>. Use an asterisk <code>*</code> as a wildcard to match other text."
+msgstr "Укажите заголовки, которые должны быть исключены из оглавления. Отделите несколько заголовков вертикальной чертой <code>|</code>. Используйте звездочку <code>*</code> в качестве подстановочного знака для соответствия другому тексту."
+
+#: includes/class.admin.php:277
+msgid "<code>Level [1.1]|Alternate TOC Header</code> Replaces Level [1.1] in the table of contents with Alternate TOC Header."
+msgstr "<code>Уровень [1.1] |Альтернативный заголовок TOC</code> Заменяет уровень [1.1] в оглавлении с помощью альтернативного заголовка TOC."
+
+#: includes/class.admin.php:313 includes/class.options.php:499
+msgid "<code>Apple Tree|Oranges|Yellow Bananas</code> Ignore headings that are exactly \"Apple Tree\", \"Oranges\" or \"Yellow Bananas\"."
+msgstr "<code>Яблоня|Апельсины|Желтые бананы</code> Игнорировать заголовки, которые точно соответствуют \"Яблоня\", \"Апельсины\" или \"Желтые бананы\"."
+
+#: includes/class.admin.php:315 includes/class.options.php:501
+msgid "<strong>Note:</strong> This is not case sensitive."
+msgstr "<strong>Примечание:</strong>Не чувствительно к регистру."
